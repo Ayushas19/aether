@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AETHER | Premium E-Commerce</title>
+    <meta name="description" content="Aether - The future of premium shopping and algorithmic excellence.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cursor-follower"></div>
+
+    <header>
+        <nav>
+            <div class="logo">AETHER</div>
+            <div class="nav-links">
+                <a href="#">Collection</a>
+                <a href="#">Innovation</a>
+                <a href="#">About</a>
+            </div>
+            <div class="nav-icons">
+                <button id="search-trigger" class="icon-btn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </button>
+                <button class="icon-btn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="reveal-text">ELEGANCE IN<br><span class="gradient-text">EVERY PIXEL</span></h1>
+                <p class="fade-up">Discover our curated collection of high-performance tech and luxury lifestyle essentials.</p>
+                <div class="hero-btns fade-up">
+                    <button class="cta-btn">EXPLORE NOW</button>
+                    <button class="cta-btn secondary">VIEW COLLECTIONS</button>
+                </div>
+            </div>
+            <div class="hero-image-container">
+                <div class="glow-bg"></div>
+                <img src="luxury_watch_product_1778048720642.png" alt="Luxury Watch" class="hero-img floating">
+            </div>
+        </section>
+
+        <section class="products">
+            <h2 class="section-title">FEATURED PRODUCTS</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-img-box">
+                        <img src="futuristic_sneakers_product_1778048741904.png" alt="Cyber Runner">
+                    </div>
+                    <div class="product-info">
+                        <h3>Cyber Runner 2099</h3>
+                        <p class="price">$299.00</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img-box">
+                        <img src="premium_headphones_product_1778048758176.png" alt="Aurae Headphones">
+                    </div>
+                    <div class="product-info">
+                        <h3>Aurae Studio Gen-2</h3>
+                        <p class="price">$450.00</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img-box">
+                        <img src="minimalist_smart_speaker_product_1778048773719.png" alt="Aether Sound">
+                    </div>
+                    <div class="product-info">
+                        <h3>Aether Sound Node</h3>
+                        <p class="price">$199.00</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Algorithmic Search Panel (Hidden by default) -->
+    <div id="search-panel" class="search-overlay">
+        <div class="panel-content">
+            <div class="panel-header">
+                <h2>ALGORITHM REPOSITORY</h2>
+                <button id="close-search" class="close-btn">&times;</button>
+            </div>
+            <div class="search-input-wrapper">
+                <input type="text" id="algo-search-input" placeholder="Search algorithms (e.g. Quick Sort, Knapsack)...">
+            </div>
+            <div class="results-container" id="algo-results">
+                <!-- Algorithm cards will be injected here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

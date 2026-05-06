@@ -351,6 +351,28 @@ h1 {
     color: #00ff88;
 }
 
+.algo-meta {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.02);
+    border-left: 3px solid var(--accent);
+    border-radius: 0 8px 8px 0;
+}
+
+.question-text {
+    color: var(--accent);
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.explanation-text {
+    color: var(--text-dim);
+    font-size: 0.9rem;
+    font-style: italic;
+    line-height: 1.4;
+}
+
 .code-block {
     background: #121212;
     padding: 1.5rem;
